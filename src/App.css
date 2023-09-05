@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #add8e6;
+}
+
+#container {
+    width: 1024px;
+    font-size: 1.3em;
+}
+
+#titulo-fuso {
+    margin-bottom: 1em;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+}
+
+#data {
+    margin: 1em;
+    letter-spacing: 0.3em;
+}
+
+#relogio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 6em;
+    letter-spacing: 0.1em;
+}
+
+#relogio #minuto {
+    margin: 0 1em 0 1em;
+}
+
+#relogio > :nth-child(n) {
+    width: 130px;
+}
+
+.home-button {
+    width: 12em;
+    height: 3em;
+    font-size: 1.2em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 2em;
+    background-color: #77a6b6;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: #668f9c;
+    transform: scale(1.1);
+}
+
+#back-button {
+    display: flex;
+    width: 4em;
+    height: 3em;
+    border: none;
+    border-radius: 1em;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    background-color: #77a6b6;
+    cursor: pointer;
+}
+
+#back-button:hover {
+    background-color: #668f9c;
+    transform: scale(1.1);
+}
+
+#home-container {
+    height: 301px;
+}
+
+#home-title {
+    font-size: 2.4em;
+    padding-top: 1.4em;
+    margin-bottom: 2.7em;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #home-container {
+        height: 230px;
+    }
+
+    #home-title {
+        font-size: 1.8em;
+    }
+
+    .home-button {
+        font-size: 0.9em;
+    }
+
+    #container {
+        width: 769px;
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #home-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+    }
+
+    #home-title {
+        font-size: 1.6em;
+    }
+
+    #home-button-box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .home-button {
+        font-size: 1.24em
+    }
+
+    #container {
+        width: 481px;
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #home-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+    }
+
+    #home-title {
+        font-size: 1.6em;
+    }
+
+    #home-button-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .home-button {
+        font-size: 1em;
+    }
+
+    #container {
+        width: 320px;
+        font-size: 0.5em;
+    }
+
+    #back-button {
+        width: 3.5em;
+        height: 2.5em;
+    }
+}
