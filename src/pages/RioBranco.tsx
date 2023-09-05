@@ -18,7 +18,7 @@ function RioBranco() {
 
   return (
     <div id="container">
-      <NavLink to="/"><button id="back-button"><FiArrowLeft size={25}  /></button></NavLink>
+      <NavLink to="/fusos-brasileiros"><button id="back-button"><FiArrowLeft size={25}  /></button></NavLink>
       <h1 id="titulo-fuso">Fuso do Acre GMT-5</h1>
       <h2 id="data">{time.slice(0, 10)}</h2>
       <div id="relogio">

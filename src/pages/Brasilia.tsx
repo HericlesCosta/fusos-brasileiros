@@ -18,7 +18,7 @@ function Brasilia() {
 
   return (
     <div id="container">
-      <NavLink to="/"><button id="back-button"><FiArrowLeft size={25} /></button></NavLink>
+      <NavLink to="/fusos-brasileiros"><button id="back-button"><FiArrowLeft size={25} /></button></NavLink>
       <h1 id="titulo-fuso">Fuso de Brasília GMT-3</h1>
       <h2 id="data">{time.slice(0, 10)}</h2>
       <div id="relogio">

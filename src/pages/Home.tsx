@@ -7,10 +7,10 @@ function Home() {
             <h1 id="home-title">Selecione o Fuso Horário brasileiro que você quer verificar</h1>
           </div>
           <div id="home-button-box">
-            <NavLink to="/fernando-noronha"><button className="home-button">Fernando de Noronha</button></NavLink>
-            <NavLink to="/brasilia"><button className="home-button">Brasília</button></NavLink>
-            <NavLink to="/amazonas"><button className="home-button">Amazonas</button></NavLink>
-            <NavLink to="/acre"><button className="home-button">Acre</button></NavLink>
+            <NavLink to="/fusos-brasileiros/fernando-noronha"><button className="home-button">Fernando de Noronha</button></NavLink>
+            <NavLink to="/fusos-brasileiros/brasilia"><button className="home-button">Brasília</button></NavLink>
+            <NavLink to="/fusos-brasileiros/amazonas"><button className="home-button">Amazonas</button></NavLink>
+            <NavLink to="/fusos-brasileiros/acre"><button className="home-button">Acre</button></NavLink>
           </div>
         </div>
       );

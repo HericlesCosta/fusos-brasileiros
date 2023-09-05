@@ -18,7 +18,7 @@ function FernandoDeNoronha() {
 
   return (
     <div id="container">
-      <NavLink to="/"><button id="back-button"><FiArrowLeft size={25} /></button></NavLink>
+      <NavLink to="/fusos-brasileiros"><button id="back-button"><FiArrowLeft size={25} /></button></NavLink>
       <h1 id="titulo-fuso">Fuso do Fernando de Noronha GMT-2</h1>
       <h2 id="data">{time.slice(0, 10)}</h2>
       <div id="relogio">
