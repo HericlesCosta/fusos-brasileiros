@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/fusos-brasileiros" element={<Home />} />
+        <Route path="/fusos-brasileiros/" element={<Home />} />
         <Route path="/fusos-brasileiros/brasilia" element={<Brasilia />} />
         <Route path="/fusos-brasileiros/fernando-noronha" element={<FernandoDeNoronha />} />
         <Route path="/fusos-brasileiros/amazonas" element={<Manaus />} />
